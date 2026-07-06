@@ -1,30 +1,30 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Your Business
+  site: 'https://yourbusiness.co.za'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ''
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Your Business
+    template: '%s — Your Business'
+  description: "Professional services and solutions for your business needs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Your Business
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: ''
+    site: ''
     cardType: summary_large_image
 
 i18n:

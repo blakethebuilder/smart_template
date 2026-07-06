@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Your Business — Professional Services',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,65 +25,57 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Get Started',
+        href: '/contact',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white"> Astro v6</span> + Tailwind CSS
+      Your Business — <span class="text-accent dark:text-white">Professional</span> Services
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro v6 +
-        Tailwind CSS v4.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages & Blogs.
+      <span class="hidden sm:inline">We deliver professional solutions tailored to your business needs.</span>
+      Quality services that help your business grow and succeed.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <Note title="Why choose us:" description="Proven expertise, dedicated support, measurable results" />
 
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023, 2024 and 2025."
+    tagline="Services"
+    title="What We Offer"
+    subtitle="Tailored solutions designed to meet your unique business requirements and drive growth."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Expert Consulting',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility. Now powered by Tailwind CSS v4.',
-        icon: 'tabler:brand-tailwind',
+          'Strategic guidance from experienced professionals who understand your industry and challenges.',
+        icon: 'tabler:users',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Tailored Solutions',
         description:
-          'Widgets made with Tailwind CSS v4 ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'Custom approaches designed around your unique business requirements and growth objectives.',
+        icon: 'tabler:adjustments',
       },
       {
-        title: 'Best Practices',
+        title: 'Reliable Support',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Dedicated support team available to ensure your operations run smoothly at all times.',
+        icon: 'tabler:headset',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Proven Results',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'Track record of delivering measurable outcomes that drive real business value and growth.',
+        icon: 'tabler:trending-up',
       },
       {
         title: 'Search Engine Optimization (SEO)',
@@ -379,20 +371,17 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Contact Us',
+        href: '/contact',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Ready to Get Started?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Let's discuss how we can help your business succeed. <br class="hidden md:inline" />Reach out today for a consultation.
     </Fragment>
   </CallToAction>
 </Layout>
